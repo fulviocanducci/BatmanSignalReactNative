@@ -9,9 +9,7 @@ import { ButtonAction } from "../ButtonAction";
 export function ScreenOne({ setAction, label }: IScreenProps) {
   return (
     <>
-      <View style={styles.appContainerImage}>
-        <Image style={styles.appImage} source={ImgBatLogo} />
-      </View>
+      <Image style={styles.appImage} source={ImgBatLogo} />
       <ButtonAction setAction={setAction} label={label} />
     </>
   );

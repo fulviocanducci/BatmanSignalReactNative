@@ -1,15 +1,19 @@
-import { StyleSheet } from "react-native";
+import { StatusBar, StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   appContainer: {
-    marginTop: 45,
+    flex: 1,
+    paddingTop: StatusBar.currentHeight,
   },
-  appImageContainer: {
-    textAlign: "left",
-    width: "100%",
+  appScrollView: {
+    marginHorizontal: 2,
+  },
+  appContainerImage: {
+    alignContent: "center",
+    alignItems: "center",
   },
   appImage: {
     resizeMode: "contain",
-    height: 100,
+    height: 60,
   },
 });

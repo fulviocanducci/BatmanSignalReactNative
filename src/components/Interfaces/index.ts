@@ -1,4 +1,4 @@
 export interface IScreenProps {
-  label: string;
+  label?: string;
   setAction: () => void;
 }

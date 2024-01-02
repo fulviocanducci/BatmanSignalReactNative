@@ -11,7 +11,7 @@ export function Home() {
   return (
     <View style={styles.container}>
       {screenActive === 0 && <ScreenOne setAction={handleScreenOne} label="Ativar Batman Sinal" />}
-      {screenActive === 1 && <ScreenTwo />}
+      {screenActive === 1 && <ScreenTwo setAction={handleScreenTwo} />}
     </View>
   );
 }
