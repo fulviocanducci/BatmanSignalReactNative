@@ -8,12 +8,13 @@ export const styles = StyleSheet.create({
   },
   textInput: {
     borderColor: "#111",
-    borderWidth: 1,
-    padding: 5,
+    borderWidth: 2,
+    padding: 8,
     borderRadius: 5,
     width: "90%",
     height: 50,
     color: "#FFFFFF",
+    elevation: 0,
   },
   appLabel: {
     textAlign: "left",
